@@ -1,0 +1,7 @@
+# macOS junk
+.DS_Store
+**/.DS_Store
+
+# Editor junk
+*.swp
+*.swo
