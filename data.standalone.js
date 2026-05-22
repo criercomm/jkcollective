@@ -230,13 +230,13 @@ window.JK_PRESS = [
   { pub:'The Design Edit', date:'Summer 2022', title:'\u2018Collective by Jeff Lincoln Art + Design\u2019 reflects the Upper East Side-based interior designer\u2019s interest in manual skill and craft', url:'https://thedesignedit.com/exhibitions/design-in-the-hamptons/' },
   { pub:'InCollect', date:'Summer 2022', title:'Jeff Lincoln on the Virtues of Individual Style and Comfort in Interior Design', url:'https://www.incollect.com/articles/jeff-lincoln-on-the-virtues-of-individual-style-and-comfort-in-interior-design' },
   { pub:'Luxe Source', date:'Fall 2017', title:'Designer Jeff Lincoln Merges Art + Design', url:'https://luxesource.com/designer-jeff-lincoln-merges-art-design/' },
-  { pub:'Galerie Magazine', date:'Fall 2016', title:'With his Collective by Jeff Lincoln, the interior designer raises the bar on the Hamptons gallery and design scene', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/galerie.pdf' },
-  { pub:'Departures', date:'Fall 2016', title:'Galleries on the move', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/departures.pdf' },
-  { pub:'Modern Luxury', date:'Fall 2016', title:'Designer Jeff Lincoln\u2019s Hamptons gallery', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/Modern_Luxury.pdf' },
-  { pub:'HCG', date:'Fall 2016', title:'Summer Stock \u2014 New and notable from the Hamptons and beyond', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/HCG.pdf' },
-  { pub:'The Wall Street Journal', date:'2016', title:'Art and design under one Southampton roof', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/The_Wall_Street_Journal.pdf' },
-  { pub:'Elle Decor', date:'Fall 2016', title:'Design\u2019s New Directions \u2014 innovative, inspiring ideas', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/Elle_Decor.pdf' },
-  { pub:'Interior Design', date:'Fall 2016', title:'A new Hamptons venue for art + design', url:'https://collectiveartdesign.com/wp-content/uploads/2017/08/interior-design.pdf' },
+  { pub:'Galerie Magazine', date:'Fall 2016', title:'With his Collective by Jeff Lincoln, the interior designer raises the bar on the Hamptons gallery and design scene', url:'assets/press/galerie.pdf' },
+  { pub:'Departures', date:'Fall 2016', title:'Galleries on the move', url:'assets/press/departures.pdf' },
+  { pub:'Modern Luxury', date:'Fall 2016', title:'Designer Jeff Lincoln\u2019s Hamptons gallery', url:'assets/press/Modern_Luxury.pdf' },
+  { pub:'HCG', date:'Fall 2016', title:'Summer Stock \u2014 New and notable from the Hamptons and beyond', url:'assets/press/HCG.pdf' },
+  { pub:'The Wall Street Journal', date:'2016', title:'Art and design under one Southampton roof', url:'assets/press/The_Wall_Street_Journal.pdf' },
+  { pub:'Elle Decor', date:'Fall 2016', title:'Design\u2019s New Directions \u2014 innovative, inspiring ideas', url:'assets/press/Elle_Decor.pdf' },
+  { pub:'Interior Design', date:'Fall 2016', title:'A new Hamptons venue for art + design', url:'assets/press/interior-design.pdf' },
   { pub:'Luxe Magazine', date:'Fall 2016', title:'Art and Design merge in designer Jeff Lincoln\u2019s gallery', url:'#' }
 ];
 

@@ -1,36 +1,16 @@
-# JK Art & Design Projects — Deployment Package
+# Press PDFs localized
 
-A static, single-page site. Plain HTML + React (loaded from CDN) + Babel-in-the-browser JSX. **No build step required** — drop the contents of this folder onto any static host and you're live.
+The press article links now point to local files instead of `collectiveartdesign.com`. After this, your site has **zero** external dependencies on the old WP host.
 
-## What changed in this version
+## Files in this bundle
 
-**All 224 artist / work / exhibition images are now hosted locally** in `assets/img/scraped/` as WebP at quality 82. The site no longer depends on `collectiveartdesign.com` for photos — when that domain eventually goes away, the gallery still works.
-
-Only remaining external dependencies: 7 press article **PDFs** still link to `collectiveartdesign.com/wp-content/uploads/2017/08/*.pdf`. These open in a new tab when a user clicks a press row. We can localize those next if you want; for now they still resolve fine.
-
-## What's inside
-
-| File / folder | Purpose |
+| Path | Notes |
 | --- | --- |
-| `index.html` | Page shell — mounts the React app, loads fonts, contains all CSS. |
-| `components.jsx` | Shared components (Nav, Footer, Img, Lightbox, logo). |
-| `pages.jsx` | Page components. |
-| `data.standalone.js` | Site content — every artist/work/exhibition entry now points at a local file. |
-| `assets/fonts/` | Self-hosted Gloock / Inter Tight / JetBrains Mono (16 woff2 files). |
-| `assets/img/` | Site-chrome images (logo, footer building, hero photo, Jean Gillon hero, visit building line, founders portrait). |
-| `assets/img/scraped/` | **224 WebP images** — artist portraits, work photos, exhibition heroes. Average 70%+ smaller than the JPEG originals. |
-| `assets/favicon/` | Multi-size favicons. |
+| `data.standalone.js` | Press URLs rewritten from `https://collectiveartdesign.com/...` → `assets/press/...`. |
+| `assets/press/*.pdf` | 7 PDFs (total ~25MB): Elle Decor, WSJ, Galerie, Departures, HCG, Modern Luxury, Interior Design. |
 
-## Hosting on Cloudflare Pages
+## How to deploy
 
-You're already set up. Just push this folder's contents to your `criercomm/jkcollective` repo and Pages will redeploy automatically. Cloudflare's edge CDN serves the WebP files globally — no separate image host needed.
+Same as before — drop these into your `jkcollective` repo (preserving paths), commit, push. The Cloudflare project (manual upload mode) won't auto-redeploy though, so you'll still need to do **New deployment → drag the updated `deploy/` folder** as you did last time.
 
-## Once `jkprojects.info` is Active in Cloudflare
-
-1. Workers & Pages → `jk-projects` → **Domains** → **Add Domain** → pick `jkprojects.info`.
-2. Repeat for `www.jkprojects.info`.
-3. SSL provisions automatically within a minute.
-
-## Hard refresh after deploying
-
-Cmd/Ctrl + Shift + R after the new build goes live, otherwise your browser may serve the cached `pages.jsx` and `data.standalone.js` from before. Images are new filenames so they won't conflict.
+Or, if you want, I can put together a single complete deploy folder again (everything bundled fresh) so you can just drag it. Let me know.
